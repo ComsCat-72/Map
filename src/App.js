@@ -1,7 +1,8 @@
 import './App.css';
 import Map from "./Components/Map";
+import React from 'react';
 
-function App() {
+ function App() {
   return (
     <div className="App">
       <Map />
@@ -9,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default React.memo(App);
